@@ -12,21 +12,52 @@
 
 <body>
 
-    <div class=" h-24 w-full flex justify-around items-center gap-3.5">
-        <div class="w-20"><img src="logo.png" class="text-white bg-cover ml-1 " alt=""></div>
+    <div>
 
-        <div class="flex items-center">
-            <ul class="flex gap-8 ">
-                <li class="text-black text-[18px] sm:text-2xl md:text-2xl lg:text-3xl "><a
-                        class="hover:text-blue-500 transition" href="">Home</a></li>
-                <li class="text-black text-[18px] sm:text-2xl md:text-2xl lg:text-3xl "><a
-                        class="hover:text-blue-500 transition" href="">Product</a></li>
-                <li class="text-black text-[18px] sm:text-2xl md:text-2xl lg:text-3xl "><a
-                        class="hover:text-blue-500 transition" href="">Contact</a></li>
-            </ul>
+        <div class=" h-24 w-full flex justify-around items-center gap-3.5">
+            <div class="w-20"><img src="logo.png" class="text-white bg-cover ml-1 " alt="">
+            </div>
+
+            <div class="flex items-center z-10">
+                <ul class="flex gap-8 lg:gap-20 ">
+                    <li class="text-black text-[18px] sm:text-2xl md:text-2xl lg:text-3xl "><a
+                            class="hover:text-blue-500 transition" href="">Home</a></li>
+                    <li class="text-black text-[18px] sm:text-2xl md:text-2xl lg:text-3xl "><a
+                            class="hover:text-blue-500 transition" href="">Product</a></li>
+                    <li class="text-black text-[18px] sm:text-2xl md:text-2xl lg:text-3xl "><a
+                            class="hover:text-blue-500 transition" href="">Contact</a></li>
+                </ul>
+            </div>
+
+
+            <div
+                class=" side-toggle ml-10 md:ml-20 lg:ml-50 hover:bg-gray-300 p-2 rounded-4xl cursor-pointer group z-60">
+                <i class="text-2xl fa-solid fa-bars"></i></div>
+            <div class="sidebar sidebar-style items-center justify-center flex flex-wrap">
+
+                <div class=" ml-6 justify-center items-center grid grid-cols-1 gap-8 side-ui hidden">
+
+                    <h1 class="text-2xl text-black">New & Featured</h1>
+                    <h1 class="text-2xl text-black">Men</h1>
+                    <h1 class="text-2xl text-black">Women</h1>
+                    <h1 class="text-2xl text-black">Kids</h1>
+
+                    <div class="grid grid-cols-2  items-center m-1">
+                        <div class=" size-14 bg-cover"><img src="air-jordan-logo-png-transparent.png" alt=""></div>
+                        <h1 class="text-xl text-black font-extrabold">Jordan</h1>
+                    </div>
+                     
+                    <h2 class="text-gray-400 text-xl m-1">Become a Nike Member for the best products.</h2>
+                    
+                    <div class="flex flex-nowrap gap-2">
+                        <button class="bg-black size-12 px-12 rounded-3xl text-white text-[16px] shadow-2xl shadow-black flex justify-center items-center hover:opacity-65 transition cursor-pointer">Join</button>
+                        <button class="text-black size-12 text-[16px] px-12 rounded-3xl shadow-2xl shadow-black border-1 border-gray-400 flex justify-center items-center hover:opacity-30 transition cursor-pointer">Sign</button>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
-        <h4 class="hidden md:block text-2xl lg:block "><i class="fa-solid fa-cart-shopping"></i></h4>
-        <h4 class="hidden md:block text-2xl lg:block "><i class="fa-solid fa-magnifying-glass"></i></h4>
         <!-- <button
             class="px-7 h-9 bg-black text-white rounded-2xl hover:scale-x-90 transition cursor-pointer">Sign-in</button> -->
     </div>
@@ -65,9 +96,9 @@
         </div>
         <br>
         <div class="m-3">
-              <br>
-              <br>
-              <br>
+            <br>
+            <br>
+            <br>
             <div>
                 <h1 class="text-5xl font-extrabold">YOU CAN'T BAN GREATNESS</h1>
             </div>
@@ -89,8 +120,8 @@
             unleash your explosive game.</h3>
     </div>
     <div class="grid grid-cols-2 flex items-center mt-10 ">
-        <div class="ml-1.5 size-48 lg:h-[34rem] lg:w-[36rem]  lg:ml-10"><img class="bg-cover rounded-2xl shadow-2xl shadow-black"
-                src="brad-starkey-Bowrbqz1kgw-unsplash.jpg" alt="">
+        <div class="ml-1.5 size-48 lg:h-[34rem] lg:w-[36rem]  lg:ml-10"><img
+                class="bg-cover rounded-2xl shadow-2xl shadow-black" src="brad-starkey-Bowrbqz1kgw-unsplash.jpg" alt="">
             <h4 class="mt-4 ml-3 font-extrabold">$499</h4>
         </div>
         <div class="ml-1.5 size-48 lg:h-[28rem] lg:w-[30rem]"><img class="bg-cover rounded-2xl shadow-2xl shadow-black"
@@ -108,7 +139,8 @@
             <h3 class="m-3 mt-10 text-2xl font-medium md:text-2xl lg:text-2xl">Trending Now: Espresso</h3>
         </div>
         <div class="flex justify-center">
-            <div class=" mt-10 w-96 h-[30rem] lg:h-[34rem] lg:w-[56rem] flex justify-center overflow-hidden rounded-2xl shadow-2xl shadow-black">
+            <div
+                class=" mt-10 w-96 h-[30rem] lg:h-[34rem] lg:w-[56rem] flex justify-center overflow-hidden rounded-2xl shadow-2xl shadow-black">
                 <video class="h-full w-full object-cover rounded-2xl shadow-2xl shadow-black" src="shoe_video.mp4"
                     autoPlay loop muted></video>
             </div>
@@ -130,14 +162,16 @@
             <a
                 href="https://agreementservice.svs.nike.com/sg/en_gb/rest/agreement?agreementType=privacyPolicy&uxId=com.nike.unite&country=SG&language=en&requestType=redirect">Nike
                 Privacy Policy</a>
-                <br>
-                <hr>
+            <br>
+            <hr>
         </div>
         <br>
         <br>
         <br>
         <br>
 
+
+        <script src="logic.js"></script>
 
 </body>
 
