@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" href="download-nike-logo-high-quality-png-25.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+
+        <div>
+            <div class=" h-24 w-full flex justify-around items-center gap-3.5">
+                <div class="w-20"><img src="logo.png" class="text-white bg-cover ml-1 " alt="">
+                </div>
+
+                <div class="flex items-center z-10">
+                    <ul class="flex gap-8 lg:gap-20 ">
+                        <li class="text-black text-[18px] sm:text-2xl md:text-2xl lg:text-3xl "><a
+                                class="hover:text-blue-500 transition" href="">Home</a></li>
+                        <li class="text-black text-[18px] sm:text-2xl md:text-2xl lg:text-3xl "><a
+                                class="hover:text-blue-500 transition" href="">Product</a></li>
+                        <li class="text-black text-[18px] sm:text-2xl md:text-2xl lg:text-3xl "><a
+                                class="hover:text-blue-500 transition" href="">Contact</a></li>
+                    </ul>
+                </div>
+
+
+                <div
+                    class=" side-toggle ml-10 md:ml-20 lg:ml-50 hover:bg-gray-300 p-2 rounded-4xl cursor-pointer group z-60">
+                    <i class="text-2xl fa-solid fa-bars"></i>
+                </div>
+                <div class="sidebar sidebar-style items-center justify-center flex flex-wrap">
+
+                    <div class=" ml-6 justify-center items-center grid grid-cols-1 gap-8 side-ui hidden">
+
+                        <h1 class="text-2xl text-black">New & Featured</h1>
+                        <h1 class="text-2xl text-black">Men</h1>
+                        <h1 class="text-2xl text-black">Women</h1>
+                        <h1 class="text-2xl text-black">Kids</h1>
+
+                        <div class="grid grid-cols-2  items-center m-1">
+                            <div class=" size-14 bg-cover"><img src="air-jordan-logo-png-transparent.png" alt=""></div>
+                            <h1 class="text-xl text-black font-extrabold">Jordan</h1>
+                        </div>
+
+                        <h2 class="text-gray-400 text-xl m-1">Become a Nike Member for the best products.</h2>
+
+                        <div class="flex flex-nowrap gap-2">
+                            <button
+                                class="bg-black size-12 px-12 rounded-3xl text-white text-[16px] shadow-2xl shadow-black flex justify-center items-center hover:opacity-65 transition cursor-pointer">Join</button>
+                            <button
+                                class="text-black size-12 text-[16px] px-12 rounded-3xl shadow-2xl shadow-black border-1 border-gray-400 flex justify-center items-center hover:opacity-30 transition cursor-pointer">Sign</button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+    </header>
+
+    <br>
+    <div class="bg-gray-200 w-full h-16 flex justify-center items-center">
+        <h2 class="font-medium">New Styles On Sale: Up To 40% Off
+
+        </h2>
+    </div>
+    <div class="bg-white  w-full h-58">
+        <h1 class="font-bold text-2xl m-3">Nike Air Jordan-1</h1>
+        <h3 class="m-3">Men Basketball Shoes</h3>
+        <h1 class="font-bold text-2xl m-3">MRP :₹ 3,15,146.95</h1>
+        <h3 class="m-3">Inclusive of all taxes</h3>
+        <h3 class="m-3">(Also includes all applicable duties)</h3>
+    </div>
+
+    <div class="bg-gray-200 w-full h-[32rem]">
+        <br>
+        <div class="w-36 h-12 bg-white ml-5 rounded-4xl flex justify-center items-center gap-1.5"><i
+                class="fa-solid fa-star"></i>
+            <h1 class="font-medium">Highy Rated</h1>
+        </div>
+        <br>
+        <div class="lg:flex lg:justify-center lg:items-center"><img class="mt-1 lg:h-[30rem] lg:w-[50rem] lg:mt-1" src="jordan.png" alt=""></div>
+    </div>
+    <br>
+    <div class="flex justify-center flex-wrap ">
+        <div class="bg-gray-200 w-[28rem] m-3 h-20 flex justify-center items-center ">
+            <h1 class="font-bold ">Comming Soon</h1>
+        </div>
+        <br>
+        <div
+            class="bg-black rounded-4xl w-[28rem] m-3 h-16 flex justify-center items-center text-white font-bold hover:bg-[#9AA6B2] cursor-pointer">
+            Notify Me</div>
+    </div>
+    <br>
+    <div class="w-full h-[20rem] mt-1 flex flex-wrap">
+        <h1 class="font-medium text-xm m-3">The Air Jordan 1 delivers legendary style with premium materials and responsive cushioning. Featuring a
+            classic high-top silhouette, this sneaker provides ankle support while maintaining a sleek and bold
+            aesthetic. The durable leather upper ensures a premium feel, while the encapsulated Air-Sole unit delivers
+            all-day comfort. Whether you're on the court or the streets, the Air Jordan 1 is built to make a statement.
+        </h1>
+        <h1 id="product-btn" class="underline m-3 cursor-pointer">View Product Details</h1>
+        <div id="product" class="bg-white shadow-2xl shadow-black rounded-4xl w-full h-[37rem] z-50 absolute left-0 right-0  overflow-y-auto hidden transition-all duration-1000 ease-in-out overflow-hidden ">
+            <div class="flex justify-end m-10"><div class=" h-12 w-12 rounded-4xl bg-gray-100 hover:bg-gray-200 cursor-pointer flex justify-center items-center "><i id="close-btn" class="fa-solid fa-xmark"></i></div></div>
+        </div>
+    </div>
+
+    <!-- <script src="jordan-1.js"></script> -->
+    <script src="logic.js"></script>
+
+</body>
+
+</html>
