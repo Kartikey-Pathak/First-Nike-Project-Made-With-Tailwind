@@ -12,165 +12,189 @@
 
 <body>
 
-    <div>
+    <header>
 
-        <div class=" h-24 w-full flex justify-around items-center gap-3.5">
-            <div class="w-20"><img src="logo.png" class="text-white bg-cover ml-1 " alt="">
+        <div>
+            <div class=" h-24 w-full flex justify-around items-center gap-3.5">
+                <div class="w-20"><img src="logo.png" class="text-white bg-cover ml-1 " alt="">
+                </div>
+
+                <div class="flex items-center z-10">
+                    <ul class="flex gap-8 lg:gap-20 ">
+                        <li class="text-black text-[18px] sm:text-2xl md:text-2xl lg:text-3xl "><a
+                                class="hover:text-blue-500 transition" href="">Home</a></li>
+                        <li class="text-black text-[18px] sm:text-2xl md:text-2xl lg:text-3xl "><a
+                                class="hover:text-blue-500 transition" href="">Product</a></li>
+                        <li class="text-black text-[18px] sm:text-2xl md:text-2xl lg:text-3xl "><a
+                                class="hover:text-blue-500 transition" href="">Contact</a></li>
+                    </ul>
+                </div>
+
+
+                <div
+                    class=" side-toggle ml-10 md:ml-20 lg:ml-50 hover:bg-gray-300 p-2 rounded-4xl cursor-pointer group z-60">
+                    <i class="text-2xl fa-solid fa-bars"></i>
+                </div>
+                <div class="sidebar sidebar-style items-center justify-center flex flex-wrap">
+
+                    <div class=" ml-6 justify-center items-center grid grid-cols-1 gap-8 side-ui hidden">
+
+                        <h1 class="text-2xl text-black">New & Featured</h1>
+                        <h1 class="text-2xl text-black">Men</h1>
+                        <h1 class="text-2xl text-black">Women</h1>
+                        <h1 class="text-2xl text-black">Kids</h1>
+
+                        <div class="grid grid-cols-2  items-center m-1">
+                            <div class=" size-14 bg-cover"><img src="air-jordan-logo-png-transparent.png" alt=""></div>
+                            <h1 class="text-xl text-black font-extrabold">Jordan</h1>
+                        </div>
+
+                        <h2 class="text-gray-400 text-xl m-1">Become a Nike Member for the best products.</h2>
+
+                        <div class="flex flex-nowrap gap-2">
+                            <button
+                                class="bg-black size-12 px-12 rounded-3xl text-white text-[16px] shadow-2xl shadow-black flex justify-center items-center hover:opacity-65 transition cursor-pointer">Join</button>
+                            <button
+                                class="text-black size-12 text-[16px] px-12 rounded-3xl shadow-2xl shadow-black border-1 border-gray-400 flex justify-center items-center hover:opacity-30 transition cursor-pointer">Sign</button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+    </header>
+
+    <br>
+    <div class="bg-gray-200 w-full h-16 flex justify-center items-center">
+        <h2 class="font-medium">New Styles On Sale: Up To 40% Off
+
+        </h2>
+    </div>
+
+    <br>
+    <br>
+    <div class="grid grid-cols-1 lg:grid-cols-2">
+        <div
+            class="bg-gray-200 w-full h-[36rem] order-2 rounded-2xl ml-0 sm:w-full sm:h-[40rem] lg:ml-32 lg:w-[40rem] lg:order-1 lg:h-[44rem]">
+            <br>
+            <div class="w-36 h-12 bg-white ml-5 rounded-4xl flex justify-center items-center gap-1.5"><i
+                    class="fa-solid fa-star"></i>
+                <h1 class="font-medium">Highy Rated</h1>
+            </div>
+            <br>
+            <div class="lg:flex lg:justify-center lg:items-center"><img class="mt-1 lg:h-[30rem] lg:w-[50rem] lg:mt-1"
+                    src="jordan.png" alt=""></div>
+        </div>
+        <div class="bg-white  w-72  h-58 ml-3 order-1 lg:order-2 lg:ml-12">
+            <h1 class="font-bold text-2xl m-3">Nike Air Jordan-1</h1>
+            <h3 class="m-3">Men Basketball Shoes</h3>
+            <h1 class="font-bold text-2xl m-3">MRP :₹ 3,15,146.95</h1>
+            <h3 class="m-3">Inclusive of all taxes</h3>
+            <h3 class="m-3">(Also includes all applicable duties)</h3>
+            <br>
+            <div class="mt-[44rem] lg:mt-0">
+                <h3 class="m-3 font-medium">Select Size</h3>
+                <h3 class="m-3 w-96 ">Fits small; we recommend ordering half a size up</h3>
             </div>
 
-            <div class="flex items-center z-10">
-                <ul class="flex gap-8 lg:gap-20 ">
-                    <li class="text-black text-[18px] sm:text-2xl md:text-2xl lg:text-3xl "><a
-                            class="hover:text-blue-500 transition" href="">Home</a></li>
-                    <li class="text-black text-[18px] sm:text-2xl md:text-2xl lg:text-3xl "><a
-                            class="hover:text-blue-500 transition" href="">Product</a></li>
-                    <li class="text-black text-[18px] sm:text-2xl md:text-2xl lg:text-3xl "><a
-                            class="hover:text-blue-500 transition" href="">Contact</a></li>
+            <div class=" w-[21rem] h-[14rem]">
+                <ul>
+                    <li class="flex justify-around">
+                        <h1
+                            class="border-2 border-gray-300 hover: transition-all cursor-pointer hover:border-black w-32 h-12 m-3 rounded-2xl font-bold flex justify-center items-center">
+                            UK 6</h1>
+                        <h1
+                            class="border-2 border-gray-300 hover: transition-all cursor-pointer hover:border-black w-32 h-12 m-3 rounded-2xl font-bold flex justify-center items-center">
+                            UK 7</h1>
+                    </li>
+                    <li class="flex justify-around">
+                        <h1
+                            class="border-2 border-gray-300 hover: transition-all cursor-pointer hover:border-black w-32 h-12 m-3 rounded-2xl font-bold flex justify-center items-center">
+                            UK 8</h1>
+                        <h1
+                            class="border-2 border-gray-300 hover: transition-all cursor-pointer hover:border-black w-32 h-12 m-3 rounded-2xl font-bold flex justify-center items-center">
+                            UK 9</h1>
+                    </li>
+                    <li class="flex justify-around">
+                        <h1
+                            class="border-2 border-gray-300 hover: transition-all cursor-pointer hover:border-black w-32 h-12 m-3 rounded-2xl font-bold flex justify-center items-center">
+                            UK 10</h1>
+                        <h1
+                            class="border-2 border-gray-300 hover: transition-all cursor-pointer hover:border-black w-32 h-12 m-3 rounded-2xl font-bold flex justify-center items-center">
+                            UK 11</h1>
+                    </li>
                 </ul>
             </div>
+            <br>
 
-
-            <div
-                class=" side-toggle ml-10 md:ml-20 lg:ml-50 hover:bg-gray-300 p-2 rounded-4xl cursor-pointer group z-60">
-                <i class="text-2xl fa-solid fa-bars"></i></div>
-            <div class="sidebar sidebar-style items-center justify-center flex flex-wrap">
-
-                <div class=" ml-6 justify-center items-center grid grid-cols-1 gap-8 side-ui hidden">
-
-                    <h1 class="text-2xl text-black">New & Featured</h1>
-                    <h1 class="text-2xl text-black">Men</h1>
-                    <h1 class="text-2xl text-black">Women</h1>
-                    <h1 class="text-2xl text-black">Kids</h1>
-
-                    <div class="grid grid-cols-2  items-center m-1">
-                        <div class=" size-14 bg-cover"><img src="air-jordan-logo-png-transparent.png" alt=""></div>
-                        <h1 class="text-xl text-black font-extrabold">Jordan</h1>
-                    </div>
-                     
-                    <h2 class="text-gray-400 text-xl m-1">Become a Nike Member for the best products.</h2>
-                    
-                    <div class="flex flex-nowrap gap-2">
-                        <button class="bg-black size-12 px-12 rounded-3xl text-white text-[16px] shadow-2xl shadow-black flex justify-center items-center hover:opacity-65 transition cursor-pointer">Join</button>
-                        <button class="text-black size-12 text-[16px] px-12 rounded-3xl shadow-2xl shadow-black border-1 border-gray-400 flex justify-center items-center hover:opacity-30 transition cursor-pointer">Sign</button>
-                    </div>
-
+            <div class="flex flex-wrap w-[26rem] ml-3 lg:flex-none lg:ml-0">
+                <div class="bg-gray-200 w-[26rem] lg:w-[28rem] m-3 h-20 flex justify-center items-center">
+                    <h1 class="font-bold ">Comming Soon</h1>
                 </div>
+                <br>
+                <div
+                    class="bg-black rounded-4xl w-[26rem] lg:w-[28rem] m-3 h-16 flex justify-center items-center text-white font-bold hover:bg-[#9AA6B2] cursor-pointer">
+                    Notify Me</div>
+
             </div>
 
         </div>
-        <!-- <button
-            class="px-7 h-9 bg-black text-white rounded-2xl hover:scale-x-90 transition cursor-pointer">Sign-in</button> -->
     </div>
 
-    <div class=" grid grid-cols-1 ">
-        <div><img class="lg:h-[38rem] lg:w-4xl lg:ml-20 xl:ml-56 xl:h-[42rem] xl:w-6xl " src="jordan.png" loading="lazy" alt=""></div>
 
-        <div class="flex justify-center">
-            <h1
-                class="lg:px-12 text-white p-6 rounded-4xl shadow-2xl shadow-black bg-black hover:scale-95 transition cursor-pointer">
-                <a href="Jordan-1.html">Air Jordan-1</a></h1>
-        </div>
-    </div>
-
-    <br>
-
-    <div class="mt-20 grid grid-cols-1">
-        <div class="lg:flex justify-center">
-            <h1 class="m-3 text-5xl font-extrabold ml-3">MY VERY BEST</h1>
-        </div>
-        <h3 class="m-3 ml-3 mt-4 font-medium font-sans md:text-2xl lg:text-2xl">Jordan
-            If you know, you know. Straight from MJ's iconic rookie season, the Air Jordan 1 Retro High OG 'Black Toe'
-            pairs all the original design details with a hidden, UV-activated signature from the GOAT himself.
-        </h3>
-        <br>
-        <div class="lg:flex justify-center"><button
-                class="bg-black font-bold m-4 px-9 py-3 text-white rounded-4xl hover:opacity-85 transition cursor-pointer">Shop</button>
-        </div>
-    </div>
-    <br>
-    <div class="m-3 grid grid-cols-1">
-        <div class="flex justify-center">
-            <div class="w-96 h-[30rem] flex justify-center overflow-hidden rounded-2xl shadow-2xl shadow-black"><video
-                    class="h-full w-full object-cover rounded-2xl shadow-2xl shadow-black "  src="video.mp4" autoPlay loop
-                    muted></video></div>
-        </div>
-        <br>
-        <div class="m-3">
-            <br>
-            <br>
-            <br>
-            <div>
-                <h1 class="text-5xl font-extrabold ml-3">YOU CAN'T BAN GREATNESS</h1>
-            </div>
-            <div>
-                <h3 class="m-3 mt-4 font-medium font-sans md:text-2xl lg:text-2xl ml-3">Since his game-winning shot that
-                    brought championship glory to North Carolina, Michael Jordan has
-                    been at the forefront of basketball consciousness. He took to the court in 1985 wearing the original
-                    Air Jordan I, simultaneously breaking league rules and his opponents' will, while capturing the
-                    imaginations of fans worldwide.</h3>
-            </div>
-        </div>
-    </div>
 
     <br>
     <br>
-    <div class="ml-3 text-5xl font-extrabold ">
-        <h1 class="ml-3">BUILT TO BE DIFFERENT</h1>
-        <h3 class="m-3 ml-3 mt-4 text-2xl font-medium md:text-2xl lg:text-2xl">More stability and better cushioning to
-            unleash your explosive game.</h3>
-    </div>
-    <div class="grid grid-cols-2 flex items-center mt-10 ml-3 lg:gap-3 gap-2 ">
-        <div class="ml-1.5 size-48 lg:h-[34rem] lg:w-[36rem]  lg:ml-10"><img
-                class="bg-cover rounded-2xl shadow-2xl shadow-black" src="brad-starkey-Bowrbqz1kgw-unsplash.jpg" alt="">
-            <h4 class="mt-4 ml-3 font-extrabold">$499</h4>
-        </div>
-        <div class="ml-1.5 size-48 lg:h-[28rem] lg:w-[30rem]"><img class="bg-cover rounded-2xl shadow-2xl shadow-black"
-                src="adrian-hernandez-3hCa1KQ1kjE-unsplash.jpg" alt="">
-            <h4 class="mt-4 ml-3 font-extrabold">$299</h4>
-        </div>
-    </div>
-    <br>
-
-    <div class="m-3 mt-50 grid grid-cols-1">
-        <div>
-            <h1 class="font-extrabold text-5xl ml-3">BUILD WITH PRECISION</h1>
-        </div>
-        <div>
-            <h3 class="m-3 mt-10 text-2xl font-medium md:text-2xl lg:text-2xl ml-3">Trending Now: Espresso</h3>
-        </div>
-        <div class="flex justify-center">
+    <h1 id="product-btn" class="underline cursor-pointer ml-6 lg:ml-36">View Product Details</h1>
+    <div id="product"
+        class="bg-white shadow-2xl shadow-black rounded-4xl lg:w-[52rem] lg:top-96 lg:m-auto h-[37rem] w-full z-50 absolute left-0 right-0  overflow-y-auto hidden transition-all duration-1000 ease-in-out">
+        <div class="flex justify-end m-10">
             <div
-                class=" mt-10 w-96 h-[30rem] lg:h-[34rem] lg:w-[56rem] flex justify-center overflow-hidden rounded-2xl shadow-2xl shadow-black">
-                <video class="h-full w-full object-cover rounded-2xl shadow-2xl shadow-black" src="shoe_video.mp4"
-                    autoPlay loop muted></video>
+                class=" h-12 w-12 rounded-4xl bg-gray-100 hover:bg-gray-200 cursor-pointer flex justify-center items-center ">
+                <i id="close-btn" class="fa-solid fa-xmark"></i>
             </div>
         </div>
 
-        <br>
-        <hr class="mt-10">
-        <div class="grid grid-cols-1">
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+            <div class="bg-white w-96 h-44 order-2 rounded-2xl lg:order-1 ml-10">
+                <br>
+                <div class="lg:flex lg:justify-center lg:items-center"><img class="mt-1 bg-cover" src="jordan.png"
+                        alt=""></div>
+            </div>
+            <div class="bg-white  w-72  h-58 ml-3 order-1 lg:order-2 lg:ml-12">
+                <h1 class="font-bold text-2xl m-3">Nike Air Jordan-1</h1>
+                <h3 class="m-3">Men Basketball Shoes</h3>
+                <h1 class="font-bold text-2xl m-3">MRP :₹ 3,15,146.95</h1>
+                <h3 class="m-3">Inclusive of all taxes</h3>
+                <h3 class="m-3">(Also includes all applicable duties)</h3>
+                <br>
+            </div>
+            </div>
             <br>
-            <h3>© 2025 Nike, Inc. All rights reserved</h3>
+            <div class=" w-[45rem] h-[55rem] mt-20 m-auto lg:mt-10">
+            <h1 class="font-medium">Whatever your "why" is for working out, the Jordan makes it all worth it. We improved on the 1 with a
+                larger Hyperlift plate and added rubber rope wrap. Sworn by some of the greatest athletes in the world,
+                intended for lifters, cross-trainers and go-getters, and still the gold standard that delivers day after
+                day.</h1>
+                <br>
+                <h1 class="text-2xl font-bold">Tougher and stronger</h1>
+                <br>
+                <h1 class="font-medium">We made the Hyperlift plate in the heel even bigger for stability when tackling tough workouts like Split Squats, Dead Lifts and other lower-body exercises. The plate helps force weight down and out while adding rigidity in the heel. That firmness helps you feel grounded and supported, specifically under heavier loads.</h1>
+                <h1 class="text-2xl font-bold mt-10">Secure feel</h1>
+                <h1 class="font-medium">The lace-lock system attaches to the shoe tongue, so you don't have to worry about latching it to any fabric. It helps keep your laces in place, so once you tie up, you can focus solely on your workout.</h1>
+                <h1 class="text-2xl font-bold mt-10">Go to the top</h1>
+                <h1 class="font-medium">We extended the rubber wrap on the side for durability and support so that you can scale any kind of rope climb with the same repeated velocity without worrying about wear and tear. It stretches from the midsole to the upper and adds some support in the upper for multi-directional movements.</h1>
+                <h1 class="text-2xl font-bold mt-10">Durable and cool</h1>
+                <h1 class="font-medium">The lightweight, breathable mesh helps keep your foot cool yet sports the kind of durability that can withstand scrapes, slashes and quick-drag movements.</h1>
+                <h1 class="text-2xl font-bold mt-10">Feel the foam</h1>
+                <h1 class="font-medium">A dual-density midsole—firm foam on the outside, soft foam on the inside—provides responsive cushioning for lasting comfort for continuous cardio and movements.</h1>
+            </div>
             <br>
-            <a href="https://www.eshopworld.com/shoppers/help/retailer/nike/terms-and-conditions-of-sale-en/"
-                class="">Terms of Sale</a>
-            <br>
-            <a
-                href="https://agreementservice.svs.nike.com/in/en_gb/rest/agreement?agreementType=termsOfUse&uxId=com.nike&country=IN&language=en&requestType=redirect">Terms
-                of Use</a>
-            <br>
-            <a
-                href="https://agreementservice.svs.nike.com/sg/en_gb/rest/agreement?agreementType=privacyPolicy&uxId=com.nike.unite&country=SG&language=en&requestType=redirect">Nike
-                Privacy Policy</a>
-            <br>
-            <hr>
+                
+
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
 
-
+        <!-- <script src="jordan-1.js"></script> -->
         <script src="logic.js"></script>
 
 </body>
