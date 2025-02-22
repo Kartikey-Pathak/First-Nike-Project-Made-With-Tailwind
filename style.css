@@ -3,3 +3,6 @@
 .sidebar-style{
     @apply fixed top-0 right-0  h-screen overflow-y-auto bg-gray-100 text-white z-50 shadow-2xl shadow-black transition-all duration-700 overflow-hidden;
 }
+.custom-scrollbar::-webkit-scrollbar {
+    display: none; /* Hides the scrollbar while still allowing scroll */
+  }
