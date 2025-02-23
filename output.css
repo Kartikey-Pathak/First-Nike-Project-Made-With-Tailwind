@@ -426,8 +426,11 @@
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
-  .mt-\[5rem\] {
-    margin-top: 5rem;
+  .mt-\[1rem\] {
+    margin-top: 1rem;
+  }
+  .mt-\[4rem\] {
+    margin-top: 4rem;
   }
   .mt-\[10rem\] {
     margin-top: 10rem;
@@ -435,17 +438,29 @@
   .mt-\[20rem\] {
     margin-top: 20rem;
   }
+  .mt-\[35rem\] {
+    margin-top: 35rem;
+  }
+  .mt-\[40rem\] {
+    margin-top: 40rem;
+  }
+  .mt-\[41rem\] {
+    margin-top: 41rem;
+  }
+  .mt-\[42rem\] {
+    margin-top: 42rem;
+  }
   .mt-\[44rem\] {
     margin-top: 44rem;
+  }
+  .mt-\[45rem\] {
+    margin-top: 45rem;
   }
   .ml-0 {
     margin-left: calc(var(--spacing) * 0);
   }
   .ml-1 {
     margin-left: calc(var(--spacing) * 1);
-  }
-  .ml-1\.5 {
-    margin-left: calc(var(--spacing) * 1.5);
   }
   .ml-3 {
     margin-left: calc(var(--spacing) * 3);
@@ -558,10 +573,6 @@
     width: calc(var(--spacing) * 44);
     height: calc(var(--spacing) * 44);
   }
-  .size-48 {
-    width: calc(var(--spacing) * 48);
-    height: calc(var(--spacing) * 48);
-  }
   .h-3 {
     height: calc(var(--spacing) * 3);
   }
@@ -651,9 +662,6 @@
   }
   .w-72 {
     width: calc(var(--spacing) * 72);
-  }
-  .w-80 {
-    width: calc(var(--spacing) * 80);
   }
   .w-96 {
     width: calc(var(--spacing) * 96);
@@ -1613,6 +1621,18 @@
   .text-\[1rem\] {
     font-size: 1rem;
   }
+  .text-\[2\.5rem\] {
+    font-size: 2.5rem;
+  }
+  .text-\[2rem\] {
+    font-size: 2rem;
+  }
+  .text-\[3rem\] {
+    font-size: 3rem;
+  }
+  .text-\[4rem\] {
+    font-size: 4rem;
+  }
   .text-\[16px\] {
     font-size: 16px;
   }
@@ -2248,21 +2268,6 @@
       }
     }
   }
-  .sm\:mt-\[2rem\] {
-    @media (width >= 40rem) {
-      margin-top: 2rem;
-    }
-  }
-  .sm\:mt-\[10rem\] {
-    @media (width >= 40rem) {
-      margin-top: 10rem;
-    }
-  }
-  .sm\:mt-\[15rem\] {
-    @media (width >= 40rem) {
-      margin-top: 15rem;
-    }
-  }
   .sm\:h-\[40rem\] {
     @media (width >= 40rem) {
       height: 40rem;
@@ -2333,6 +2338,11 @@
   .lg\:mt-10 {
     @media (width >= 64rem) {
       margin-top: calc(var(--spacing) * 10);
+    }
+  }
+  .lg\:mt-\[10rem\] {
+    @media (width >= 64rem) {
+      margin-top: 10rem;
     }
   }
   .lg\:mt-\[20rem\] {
